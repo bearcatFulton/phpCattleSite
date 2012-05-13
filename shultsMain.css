@@ -1,0 +1,160 @@
+			body {
+                                /*Need to find a way to get a php variable here or use this style inline*/
+				background-color:white;/* #5B5B5B;
+				background-image:url("shultsBackground.jpg");*/
+				text-align: center;
+			}
+			strong {
+				color:red;
+				font-style:italic;
+			}
+			table
+			{
+			    border-color: #600;
+			    border-width: 0 0 0px 0px;
+			    border-style: solid;
+			    margin-left: auto;
+			    margin-right: auto;
+			}
+			
+			td
+			{
+			    border-color: #600;
+			    border-width: 1px 1px 0 0;
+			    border-style: solid;
+			    margin: 0;
+			    padding: 4px;
+			    background-color: #FFC;
+			    text-align: left;
+			}
+			.toBuyList{
+				text-align:left;
+				margin-left:0;
+				margin-right:0;
+				border-style:none;
+				
+			}
+			/* Horizontal Navigation*/
+			
+			#navsite ul{
+				padding: 3px 0;
+				margin-left: 0;
+				margin-top: 0px;
+				padding-top: 0;
+				
+				border-bottom: 1px solid #778;
+				font: bold 20px Veranda, sans-serif;
+			}
+			
+			#navsite ul li {
+				list-style: none;
+				margin: 0;
+				display: inline;
+			}
+			
+			#navsite ul li a {
+				padding: 3px 0.5em;
+				margin-left: 1px;
+				border: 1px solid #778;
+				border-bottom: none;
+				background: #dde;
+				text-decoration: none;
+			}
+			
+			#stockTrailer {
+				position: fixed;
+				top: 0px;
+				right: 0px;
+				
+			}
+			
+			#navsite ul li a:link {
+				color: #448;
+			}
+			
+			#navsite ul li a:visited {
+				color: #667;
+			}
+			
+			#navsite ul li a:link:hover, #navsite ul li a:visited:hover {
+				color: #000;
+				background: #aae;
+				border-color: #227;
+			}
+			
+			#navsite ul li a#current {
+				background:white;
+				border-bottom: 1px solid white;
+			}
+                        
+                        /*Columns for Livestock and Crops for sale*/
+                        
+                        #equipment{
+			    background-color:transparent;
+                            text-align:left;
+                            width:31%;
+                            float: left;
+                            background:white;
+                            padding-bottom: 1em;
+                        }
+                        #crops{
+                            background-color:transparent;
+			    text-align:left;
+                            width:31%;
+                            float: left;
+                            background: white;
+                            padding: 1em;
+                            padding-bottom: 1em;
+                            text-align: justify;
+                        }
+                        #liveStock{
+                            background-color:transparent;
+			    opacity: 1;
+			    text-align:left;
+                            width:31%;
+                            float:left;
+                            background: white;
+                            padding-bottom: 1em;
+                        }
+			#mainContent{
+			    background-color:transparent;
+			    text-align:center;
+                            width:80%;
+                            float: left;
+                            background: white;
+                            padding: 1em;
+                            padding-bottom: 1em;
+			    margin-left: 5em;
+			    margin-right: 5em;	
+			}
+                        
+                        #shultsFooter{
+                            clear:both;
+                            padding-bottom: 1em;
+                            border-top: 1px solid #333;
+                            text-align: center;
+                        }
+			/*For centering images*/
+			.center{
+				text-align:center;
+			}
+			/*Header Specification*/
+			#inBack
+			{
+				position: absolute;
+				left:0px;
+				top:0px;
+				z-index:-2;
+				width:100%;
+				height:233px;
+				opacity:.7;	
+			}
+			#logo{
+				z-index:-1;
+				padding: 0px;
+				margin-top: 0px;
+				top: 0px;
+			}
+			#mainPhoto{
+				padding-left: 1.5em;
+			}
