@@ -11,8 +11,8 @@
 	</head>
 	<body>
 <?php
-if (($_SERVER['PHP_AUTH_USER'] != 'Scott') ||
-   ($_SERVER['PHP_AUTH_PW'] != 'h1ddenW1sdom')) {
+if (($_SERVER['PHP_AUTH_USER'] != '******') ||
+   ($_SERVER['PHP_AUTH_PW'] != '************')) {
       header('WWW-Authenticate: Basic Realm="Secret Stash"');
       header('HTTP/1.0 401 Unauthorized');
       print('You must provide the proper credentials!');
